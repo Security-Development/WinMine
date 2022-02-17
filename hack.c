@@ -42,7 +42,7 @@ void hack(DWORD pid) {
 }
 
 int main() {
-	char pName[32] = "winmine_(�ѱ�)";
+	char pName[32] = "winmine_(ÇÑ±Û)";
 	DWORD pid = GetProcessByPid(pName);
 	printf("Process Name : %s\n", pName);
 	printf("PID : %d\n", pid);
